@@ -85,7 +85,7 @@
         <q>Brainfuckコード実行するEXEファイルを出力するプログラムをNode.jsで書く</q>
     </div>
     <div class="step slide" data-x="9000" data-y="-1500">
-        <q style="margin: 0;">EXEファイルの構造</q>
+        <q style="margin: 0;">EXEファイルはこうなってます</q>
         <img width="600" height="570" src="./img/exe_info.gif" />
     </div>
     <div class="step slide" data-x="10000" data-y="-1500">
@@ -109,12 +109,14 @@
         <img width="600" height="500" src="./img/a-first.png" />
     </div>
     <div class="step slide" data-x="15000" data-y="-1500">
-        <q>BrainfuckコードをNode.jsでx86の機械語に変換して実行する</q>
+        <q style="font-size: 20px; margin: 0; line-height: 1.5;">ヘッダ+セクションという構造なので、然るべき場所に然るべき値を出力すれば、動くEXEファイルが作れます</q>
+        <img width="600" height="500" src="./img/a-objdump.png" />
     </div>
     <div class="step slide" data-x="16000" data-y="-1500">
-        <q style="margin: 0;">コード</q>
-        <img width="600" height="570" src="./img/jit.png" />
+        <q style="font-size: 20px; margin: 0;">で、リファクタしたやつ</q>
+        <img width="600" height="500" src="./img/a-refactor.png" />
     </div>
+    <!-- ここまで -->
     <div class="step slide" data-x="17000" data-y="-1500">
         <q style="margin: 105px 0 0 0; font-size: 45px;">1. メモリを確保する</q>
         <q style="margin: 0px; font-size: 45px;">2. 機械語をメモリに書き込む</q>
